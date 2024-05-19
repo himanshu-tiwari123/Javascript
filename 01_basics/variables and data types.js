@@ -34,6 +34,14 @@ symbol => used to find uniqueness
 console.log(typeof(null))   //Note null is a type of object
 console.log(typeof(undefined)) //typeof(undefined) is undefined
 
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+
+console.log(stringNumber)
+console.log(typeof(stringNumber));
+
+
 
 
 
